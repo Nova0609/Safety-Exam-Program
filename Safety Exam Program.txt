@@ -1,0 +1,21 @@
+Safety Exam Program
+    1. Create a local Website that manages a database of Truck Drivers and Contractors through HTML tables
+
+Back-End Database
+    1. Must have 1 Table; and designate entries as either Truck Driver or Contrator
+    2. Data Table must have this Information:[Contractor/Truck Driver Name, Truck/Contractor Company Name, Date Exam Taken, Date Exam Expires, Level of Exam Taken, Comments]
+    3. If possible automate the Date Exam Expires to auto fill from the Date Exam Taken for 1 year after the Taken Date.
+    4. Have a counter for how many times the person has taken the Exam
+    5. Retain all database records for 3 years, delete records over 3 years old based on Exam Expiriation Date
+
+Front-End
+    1. Must beable to add new records to table. [See Below for Entry Details]
+    2. Must beable to query records from a search condition i.e [Driver/Contrator Name, Truck/Contractor Company Name, Exam Date Taken, Exam Date Expiration, Level of Exam Taken]
+    3. After searching for Driver/Contrator display message if they are:
+        EXPIRED in RED
+        ABOUT TO EXPIRE [within a week or month] in YELLOW
+        NOT EXPIRED in GREEN
+    4. Display a Clear Warning if Person is NOT ALLOWED inside the plant.
+    5. Must beable to Update Exisiting Entries if information changes. [employment to different Company, Name Change, etc...]
+    6. Have a warning box saying they are about to update the entry.
+
